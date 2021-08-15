@@ -1,0 +1,31 @@
+{
+  "name": "dalek-telegram-bot",
+  "displayName": "Dalek",
+  "version": "1.0.0",
+  "description": "I'm a Dalek. I'll exterminate every Telegram user with a questionable opinion",
+  "main": "dalek.js",
+  "scripts": {
+    "start": "node dalek.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:inixioamillano/dalek-telegram.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "node",
+    "dalek"
+  ],
+  "author": "Inixio Amillano Casteig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inixioamillano/dalek-telegram/issues"
+  },
+  "homepage": "https://github.com/inixioamillano/dalek-telegram#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "node-telegram-bot-api": "^0.54.0"
+  }
+}
